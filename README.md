@@ -1,7 +1,22 @@
 # Lab 05 - Stylization!
 Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
+# Results 
+
+
+
+![puzzle 1](D:\repo\ProceduralCG\ProceduralCG-lab03-stylization\imgs\puzzle1.png)
+
+![puzzle 2](.\imgs\puzzle2.png)
+
+![puzzle 3](.\imgs\puzzle3.png)
+
+Extra Credit: The `smoothstep` function is applied to puzzle 3.
+
+
+
 ## Introduction
+
 We will be stylizing a "toon" look by creating a shader in Unity that supports shadows and multiple lights in real-time! In the process, you will gain some familiarity with Unity’s shader graph.
 
 ## What’s provided:
