@@ -5,11 +5,11 @@ Let's practice adding stylization to a 3D scene using Unity's shader graph!
 
 
 
-![puzzle 1](D:\repo\ProceduralCG\ProceduralCG-lab03-stylization\imgs\puzzle1.png)
+![puzzle 1](./imgs/puzzle1.png)
 
-![puzzle 2](.\imgs\puzzle2.png)
+![puzzle 2](./imgs/puzzle2.png)
 
-![puzzle 3](.\imgs\puzzle3.png)
+![puzzle 3](./imgs/puzzle3.png)
 
 Extra Credit: The `smoothstep` function is applied to puzzle 3.
 
@@ -49,7 +49,7 @@ The goal of each puzzle will be to replicate the look of each puzzle’s image.
 
    * Use one of the provided texture png’s in order to add a screenspace shadow pattern onto the shadows of the scene!
    * Hint 1: What does the "ShadowAttenuation" variable do?
-  
+
 Extra Credit:
  * Add some soft interpolation at the edges of your bands, for smooth transitions between color bands. Create a "smoothness" parameter that adjusts the degree of smoothness!
 
