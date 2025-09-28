@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MainBlue
-  m_Shader: {fileID: -6465566751694194690, guid: 0377aa55f21685448a0da426549ded2b,
+  m_Shader: {fileID: -6465566751694194690, guid: 915140e159355444f9cc3ae009c15a0c,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -60,7 +60,7 @@ Material:
     - MAIN_LIGHT_CALCULATE_SHADOWS: 1
     - _ADDITIONAL_LIGHTS: 1
     - _HighlightThreshold_High: 0.56
-    - _HighlightThreshold_Low: 0.4
+    - _HighlightThreshold_Low: 0.26
     - _MAIN_LIGHT_SHADOWS_CASCADE: 1
     - _QueueControl: 0
     - _QueueOffset: 0

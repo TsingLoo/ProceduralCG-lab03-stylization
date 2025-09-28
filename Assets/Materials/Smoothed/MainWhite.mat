@@ -21,9 +21,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MainWhite
-  m_Shader: {fileID: -6465566751694194690, guid: 0377aa55f21685448a0da426549ded2b,
+  m_Shader: {fileID: -6465566751694194690, guid: 915140e159355444f9cc3ae009c15a0c,
     type: 3}
-  m_Parent: {fileID: 2100000, guid: 96d78e78710a98246be3a77c4432f326, type: 2}
+  m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - ADDITIONAL_LIGHT_CALCULATE_SHADOWS
@@ -41,9 +41,34 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - ADDITIONAL_LIGHT_CALCULATE_SHADOWS: 1
+    - MAIN_LIGHT_CALCULATE_SHADOWS: 1
+    - _ADDITIONAL_LIGHTS: 1
+    - _HighlightThreshold_High: 0.72
+    - _HighlightThreshold_Low: 0.25
+    - _MAIN_LIGHT_SHADOWS_CASCADE: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _SHADOWS_SOFT: 1
+    - _ShadowThreshold_High: 0.21
+    - _ShadowThreshold_Low: 0.05
+    - _Threshold: 0.38
+    - _ThresholdMidtone: 0.72
     - _ThresholdShadow: 0.01
     m_Colors:
     - _Highlight: {r: 1, g: 1, b: 1, a: 1}
